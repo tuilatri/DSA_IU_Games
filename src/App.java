@@ -12,7 +12,7 @@ public class App {
         int boardWidth = columnCount * tileSize;
         int boardHeight = rowCount * tileSize;
 
-        JFrame frame = new JFrame("DSA - IU - PacMan");
+        JFrame frame = new JFrame("DSA - IU - PacMan"); // hiện tên lên khung hình
         frame.setVisible(true);
         frame.setSize(boardWidth, boardHeight);
         frame.setLocationRelativeTo(null);
