@@ -4,9 +4,9 @@ import javax.swing.JFrame;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int rowCount = 21;
-        int columnCount = 19;
-        int tileSize = 32;
+        int rowCount = 21;                                      // số dòng
+        int columnCount = 19;                                   // số cột
+        int tileSize = 32;                                      // kích thước 1 ô
         int boardWidth = columnCount * tileSize;
         int boardHeight = rowCount * tileSize;
 
