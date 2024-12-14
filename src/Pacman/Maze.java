@@ -414,8 +414,8 @@ public class Maze extends JPanel {
             pacman.setLives(pacman.getLives() - 1);
             resetLevel();
         }
-
     }
+    
     //paint class for maze
     //many methods are called here becuase the paint method is recalled regularly
     public void paintComponent(Graphics g) {
